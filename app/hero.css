@@ -1,0 +1,14 @@
+.hfontWeight{
+font-weight:bold;
+}
+.customTransparent{
+   background-color: rgba(255, 255, 255,0.2);
+   border: none;
+}
+.bgColor{
+    background-color: #1c61e7;
+}
+
+.iconSize{
+    font-size:30px;
+}
