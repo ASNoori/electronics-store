@@ -41,7 +41,7 @@ const HeroSection = () => {
                 </Col>
               </Row>
             </Col>
-            <Col md={6} className="text-center">
+            <Col md={6} className="d-flex justify-content-center align-items-center">
             <Image
                 src={store} // actual path to image
                 alt="Hero Image"
