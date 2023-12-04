@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import './Content.css';
+import "./Content.css";
 
 export default function Content() {
   return (
@@ -24,16 +24,16 @@ export default function Content() {
         my soul is the mirror of the infinite God!
       </p>
       <h4 className="fw-bold"> Online shopping that really is convenient</h4>
-        <p className="my-3">
-          The car parts and everything you may need for repairs and regular
-          maintenance of your vehicle are listed in a convenient and
-          comprehensive catalogue. The innovative search – by name, item ID or
-          OEM number will help you to find automotive parts easily. You can
-          choose whichever payment method is most convenient for you from among
-          the various options. Have any questions? Our support service
-          specialists are always on hand to help. Picking and buying car parts
-          with us is an enjoyable experience
-        </p>
+      <p className="my-3">
+        The car parts and everything you may need for repairs and regular
+        maintenance of your vehicle are listed in a convenient and comprehensive
+        catalogue. The innovative search – by name, item ID or OEM number will
+        help you to find automotive parts easily. You can choose whichever
+        payment method is most convenient for you from among the various
+        options. Have any questions? Our support service specialists are always
+        on hand to help. Picking and buying car parts with us is an enjoyable
+        experience
+      </p>
     </Container>
   );
 }

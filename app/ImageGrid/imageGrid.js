@@ -11,49 +11,69 @@ function imageGrid() {
     <Container className="containerGrid p-5">
       <Row>
         <Col xs={12} md={6} lg={6} className="g-4">
-            <div style={{  backgroundSize: "cover", height:'350px', borderRadius:'10px',
-            backgroundImage: `url(${image4.src})`, opacity:0.8}}>
-          {/* <Image src={image1} alt="Image 2"  className="img-fluid Border"/> */}
-          <div className="margin">
-            <p className="fw-bold font">Broadway Store</p>
-            <Button variant="primary">
-             View Store
-            </Button>
+          <div
+            style={{
+              backgroundSize: "cover",
+              height: "350px",
+              borderRadius: "10px",
+              backgroundImage: `url(${image4.src})`,
+              opacity: 0.8,
+            }}
+          >
+            {/* <Image src={image1} alt="Image 2"  className="img-fluid Border"/> */}
+            <div className="margin">
+              <p className="fw-bold font">Broadway Store</p>
+              <Button variant="primary">View Store</Button>
             </div>
-            </div>
+          </div>
         </Col>
         <Col xs={12} md={6} lg={6} className="g-4">
-        <div style={{  backgroundSize: "cover", height:'350px', borderRadius:'10px',
-            backgroundImage: `url(${image4.src})`, opacity:0.8}}>
- <div className="margin">
-            <p className="fw-bold font">Alameda Store</p>
-            <Button variant="primary">
-             View Store
-            </Button>
+          <div
+            style={{
+              backgroundSize: "cover",
+              height: "350px",
+              borderRadius: "10px",
+              backgroundImage: `url(${image4.src})`,
+              opacity: 0.8,
+            }}
+          >
+            <div className="margin">
+              <p className="fw-bold font">Alameda Store</p>
+              <Button variant="primary">View Store</Button>
             </div>
-            </div>
+          </div>
         </Col>
         <Col xs={12} md={6} lg={6} className="g-4 image">
-           <div style={{  backgroundSize: "cover", height:'350px', borderRadius:'10px',
-            backgroundImage: `url(${image4.src})`, opacity:0.8}}>
-                 <div className="margin">
-            <p className="fw-bold font">Emeryville Store</p>
-            <Button variant="primary">
-             View Store
-            </Button>
+          <div
+            style={{
+              backgroundSize: "cover",
+              height: "350px",
+              borderRadius: "10px",
+              backgroundImage: `url(${image4.src})`,
+              opacity: 0.8,
+            }}
+          >
+            <div className="margin">
+              <p className="fw-bold font">Emeryville Store</p>
+              <Button variant="primary">View Store</Button>
             </div>
-            </div>
+          </div>
         </Col>
         <Col xs={12} md={6} lg={6} className="g-4 image">
-        <div style={{  backgroundSize: "cover", height:'350px', borderRadius:'10px',
-            backgroundImage: `url(${image4.src})`, opacity:0.8}}>
-                 <div className="margin">
-            <p className="fw-bold font">Valencia Store</p>
-            <Button variant="primary">
-             View Store
-            </Button>
+          <div
+            style={{
+              backgroundSize: "cover",
+              height: "350px",
+              borderRadius: "10px",
+              backgroundImage: `url(${image4.src})`,
+              opacity: 0.8,
+            }}
+          >
+            <div className="margin">
+              <p className="fw-bold font">Valencia Store</p>
+              <Button variant="primary">View Store</Button>
             </div>
-            </div>
+          </div>
         </Col>
       </Row>
     </Container>
