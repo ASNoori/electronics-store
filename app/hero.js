@@ -52,7 +52,7 @@ const HeroSection = () => {
               </Row>
             </Col>
             <Col md={6} className="text-center">
-              <Image
+            <Image
                 src={store} // actual path to image
                 alt="Hero Image"
                 width={400} //width of the image
